@@ -106,7 +106,7 @@ PlayerSettings:
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
   gpuSkinningTransformFeedback: 0
-  vertexShaderSkinning: 0
+  vertexShaderSkinning: 1
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -539,6 +539,9 @@ PlayerSettings:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
     m_Automatic: 0
+  - m_BuildTarget: WeixinMiniGameSupport
+    m_APIs: 0b000000
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
@@ -829,7 +832,8 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    WeixinMiniGame: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:
@@ -954,14 +958,14 @@ PlayerSettings:
   weixinMiniGameExceptionOnlyEnableForUserCodes: 0
   weixinMiniGameNameFilesAsHashes: 0
   weixinMiniGameShowDiagnostics: 0
-  weixinMiniGameDataCaching: 1
-  weixinMiniGameDebugSymbols: 0
+  weixinMiniGameDataCaching: 0
+  weixinMiniGameDebugSymbols: 1
   weixinMiniGameEmscriptenArgs: 
   weixinMiniGameModulesDirectory: 
-  weixinMiniGameTemplate: APPLICATION:Default
+  weixinMiniGameTemplate: PATH:D:\Projects\mini-test\Library\PackageCache\com.qq.weixin.minigame@9ce19adac1\WebGLTemplates\WXTemplate2022TJ
   weixinMiniGameAnalyzeBuildSize: 0
   weixinMiniGameUseEmbeddedResources: 0
-  weixinMiniGameCompressionFormat: 0
+  weixinMiniGameCompressionFormat: 2
   weixinMiniGameWasmArithmeticExceptions: 0
   weixinMiniGameLinkerTarget: 1
   weixinMiniGameThreadsSupport: 0
