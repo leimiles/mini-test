@@ -19,7 +19,7 @@ MonoBehaviour:
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: 
+    DST: F:/Projects/Unity/mini-test/Build
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
