@@ -1,5 +1,4 @@
 using Unity.Mathematics;
-using UnityEditor.ShaderGraph;
 using UnityEngine;
 
 [DisallowMultipleComponent]
