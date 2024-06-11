@@ -15,22 +15,22 @@ MonoBehaviour:
   ProjectConf:
     projectName: "\u9EA6\u6D4B"
     Appid: wxc3fc029bfde9435b
-    CDN: 
+    CDN: https://a.unity.cn/client_api/v1/buckets/2045aad0-b3c4-42ca-b37b-797c5da80481/release_by_badge/b01/content
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
     DST: F:/Projects/Unity/mini-test/Build
     StreamCDN: 
     bundleHashLength: 32
-    bundlePathIdentifier: StreamingAssets;
+    bundlePathIdentifier: StreamingAssets;AS;CUS/CustomAB
     bundleExcludeExtensions: json;
     AssetsUrl: 
     MemorySize: 256
     HideAfterCallMain: 1
     preloadFiles: 
     Orientation: 0
-    bgImageSrc: Assets/Arts/Test/Textures/cow2.jpg
-    dataFileSubPrefix: 
+    bgImageSrc: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+    dataFileSubPrefix: CUS
     maxStorage: 200
     defaultReleaseSize: 31457280
     texturesHashLength: 8

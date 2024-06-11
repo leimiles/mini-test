@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!28 &2800000
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cow2.jpg
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 4
+  m_Width: 32
+  m_Height: 32
+  m_CompleteImageSize: 832
+  m_MipsStripped: 0
+  m_WebStreaming: 0
+  m_PriorityLevel: 0
+  m_UploadedMode: 0
+  m_DataStreamData:
+    size: 0
+    path: 
+  m_TextureFormat: 50
+  m_MipCount: 6
+  m_IsReadable: 0
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 832
+  _typelessdata: 6fc0dad9d7d7eda37a3575a48eb491473d02937417f40b16090a38c630c6b188c1923100b06b20a7b1f1717a6e767a042e0207ca849b30c0848c2c3081bff17f7f0080d8c176622bb12dfafffdffffff6f009ec50100b456009052f6e6defcdff268a1a4124fd572343548a12a3eb212f300b99ee1833d712769210d82cc25ed5ec82e23bf7a58af8edb4cc0af2c90c25231f562fe3fea4909253eaa994c8077216b82d2ce796beef13219fd96a53f046f00acc3010084f6d09ed2532a0205a0e2a8a26966b3995cb500269f5cd2c92572017f21b78426d8797c3e7ff406bf2d6f00a900333044c92df9e41df542dec473c1f4e6c34b002fc1acceee749fe56cd2b097a2be723c872c120cafe3e7bde56fc0c4c5c5ed01e0109c021378024fe0728988b29f0b490069268a9d57e757f873c17ed7426b39ad011b005411c8a3d47fc0beef439b35554bb101f891f9a9ff08e9f7a414f186f7ec89af80088a5aa06e58807097337301a83207766e79487b4f289ff27bfa930b00f0f5f7f6dcd69bf1027eefc16b23f7d5b87d447d51c06f4103bdf4cf33b4dd5c92cc31d708c5c95d58ccb2e6dcdd553d76045550bc97717f00310e86f2cd7bdc2fee2acba404906e7878a0c58ab7d4626d3df7f5b38ce0e1023ec10190fcf3fbf7efafb6cafb3b6f0076b50100dcb01b76c36ed80dd34e6fc0d0d1d1ddcdb6d936db66db6cd35e6fc0dcdddde995b49256d24a5a4993ba730154d5c1b6eddbb6b5dbbe6f5bb0ff6f008cc10100206ec48db81137e22ef36f00768701000050000a400128004d8971f1966a7e7a9bf7f48f77418fb972bfe3d0a084aa73b992329b5210da6892686e3060a05e9c316df25db5594090d9d714c95a75eed4a8b741ad9939ffbfb2740cc1de7ba47d33a0053407bccda9fba3730177b1501202db626e7bbf6dffb67d410379edb347aef6692a3f14ba0e76ab7ea8fe3267bb0fb45feff35bcb2e27ac62115fe09125c57304600006607fa3ca18018ba769a1526b3e2d1ec903c01d796e888524c5414bfa09c07fffffd7cdff62e9a544ce6557ada916aaa116aa11bf6fc0b4b5b5d1a5c014980253600a04000849a1649b7793eaaffeea0f30bf5de96fc0948b85c3a5c014980253600a6cadfcfdffffffffffffc1c1babab7b7ffff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_OriginalWidth: 0
+  m_OriginalHeight: 0
+  m_OriginalAssetGuid: 00000000000000000000000000000000

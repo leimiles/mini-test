@@ -10,7 +10,7 @@ AutoStreamingSettings:
   mMeshSearchString: 
   mTextures:
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Assets/Arts/Test/Textures/cow2.jpg
     localFileId: 2800000
     rtMem: 626288
@@ -20,9 +20,9 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 1024
     height: 1024
-    abSize: 0
+    abSize: 578966
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
     localFileId: 2800000
     rtMem: 3
@@ -32,9 +32,9 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 1
     height: 1
-    abSize: 0
+    abSize: 684
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
     localFileId: 2800000
     rtMem: 256
@@ -44,9 +44,9 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 8
     height: 8
-    abSize: 0
+    abSize: 726
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
     localFileId: 2800000
     rtMem: 484
@@ -56,9 +56,9 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 11
     height: 11
-    abSize: 0
+    abSize: 768
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
     localFileId: 2800000
     rtMem: 484
@@ -68,9 +68,9 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 11
     height: 11
-    abSize: 0
+    abSize: 784
   - serializedVersion: 2
-    onDemandDownload: 0
+    onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
     localFileId: 2800000
     rtMem: 484
@@ -80,7 +80,7 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 11
     height: 11
-    abSize: 0
+    abSize: 771
   mAudios: []
   mMeshes: []
   mAnimations: []
@@ -94,10 +94,10 @@ AutoStreamingSettings:
     refs: []
   mConfigCCD:
     useCCD: 0
-    uosSecret: 
-    uosAppid: 
-    bucketUuid: 
-    bucketName: 
-    badgeName: 
+    uosSecret: 00631ba0a72c4e438129808f8be88ee5
+    uosAppid: dbf91e43-b88d-477c-a89e-c7958a3049aa
+    bucketUuid: 2045aad0-b3c4-42ca-b37b-797c5da80481
+    bucketName: misc
+    badgeName: b01
     ttAppid: 
     targetPlatfrom: 
