@@ -1,5 +1,6 @@
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 [DisallowMultipleComponent]
 public class DiscoLight : MonoBehaviour
@@ -24,6 +25,7 @@ public class DiscoLight : MonoBehaviour
             mainCamera.backgroundColor = oldColor;
         }
         randomColor = UnityEngine.Random.ColorHSV();
+        RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Flat;
     }
     void FixedUpdate()
     {
@@ -38,17 +40,18 @@ public class DiscoLight : MonoBehaviour
         }
         SetNewColor();
     }
-
     void SetNewColor()
     {
         if (oldColor != randomColor)
         {
-            oldColor = Color.Lerp(oldColor, randomColor, math.abs(math.sin(Time.realtimeSinceStartup) * 0.25f));
+            oldColor = Color.Lerp(oldColor, randomColor, math.abs(math.sin(Time.realtimeSinceStartup) * 0.15f));
         }
         else
         {
             randomColor = UnityEngine.Random.ColorHSV();
         }
+
+        RenderSettings.ambientSkyColor = oldColor * 0.5f;
 
 
     }

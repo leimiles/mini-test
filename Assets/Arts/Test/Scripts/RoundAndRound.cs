@@ -9,6 +9,5 @@ public class RoundAndRound : MonoBehaviour
     void FixedUpdate()
     {
         this.transform.Rotate(Vector3.up, 100.0f * Time.deltaTime);
-        this.transform.Rotate(Vector3.forward, 100.0f * Time.deltaTime);
     }
 }
