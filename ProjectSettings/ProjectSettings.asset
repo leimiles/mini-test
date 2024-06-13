@@ -285,7 +285,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 18dae0464b1287f489821e81bf5a42d6, type: 3}
+      m_Icon: {fileID: 2800000, guid: e151b36df091b6745b1c8584c30e2cf9, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -553,10 +553,12 @@ PlayerSettings:
   - m_BuildTarget: WeixinMiniGame
     m_EncodingQuality: 1
   - m_BuildTarget: WebGL
-    m_EncodingQuality: 1
+    m_EncodingQuality: 0
   m_BuildTargetGroupHDRCubemapEncodingQuality:
   - m_BuildTarget: Android
     m_EncodingQuality: 1
+  - m_BuildTarget: WebGL
+    m_EncodingQuality: 0
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding:
@@ -809,7 +811,8 @@ PlayerSettings:
   webGLShowDiagnostics: 0
   webGLDataCaching: 0
   webGLDebugSymbols: 1
-  webGLEmscriptenArgs: 
+  webGLEmscriptenArgs: ' -s EXPORTED_FUNCTIONS=_sbrk,_emscripten_stack_get_base,_emscripten_stack_get_end
+    -s ERROR_ON_UNDEFINED_SYMBOLS=0 -s TOTAL_MEMORY=256MB --profiling-funcs  -s EXPORTED_RUNTIME_METHODS=''["ccall","cwrap","stackTrace","addRunDependency","removeRunDependency","FS_createPath","FS_createDataFile","stackTrace","writeStackCookie","checkStackCookie","lengthBytesUTF8","stringToUTF8"]'''
   webGLModulesDirectory: 
   webGLTemplate: PROJECT:WXTemplate2022
   webGLAnalyzeBuildSize: 0
@@ -833,6 +836,7 @@ PlayerSettings:
     WeixinMiniGame: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration:
+    WebGL: 1
     WeixinMiniGame: 0
   managedStrippingLevel:
     ArmLinux: 1
