@@ -91,13 +91,13 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  autoStreaming: 0
-  useFontStreaming: 0
+  autoStreaming: 1
+  useFontStreaming: 1
   cacheASTextureAB: 0
   maxCacheSize: 0
   maxConcurrentLoad: 0
-  autoStreamingId: 
-  instantGameAppId: 
+  autoStreamingId: /v1/buckets/a751ed9d-6897-454e-947e-8049f41c15f2/release_by_badge/v0_1/content
+  instantGameAppId: dbf91e43-b88d-477c-a89e-c7958a3049aa
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
@@ -552,7 +552,7 @@ PlayerSettings:
     m_APIs: 150000000b000000
     m_Automatic: 0
   - m_BuildTarget: WeixinMiniGameSupport
-    m_APIs: 08000000
+    m_APIs: 0b000000
     m_Automatic: 0
   - m_BuildTarget: WebGLSupport
     m_APIs: 08000000
@@ -866,7 +866,7 @@ PlayerSettings:
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration:
     WebGL: 1
-    WeixinMiniGame: 0
+    WeixinMiniGame: 1
   managedStrippingLevel:
     ArmLinux: 1
     EmbeddedLinux: 1

@@ -22,6 +22,438 @@ AutoStreamingSettings:
     height: 1024
     abSize: 580729
   - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.multiverse.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.config.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 129
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.sync.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/SampleImported.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 65
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Loading.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Docs.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Fail.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Installed.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Install.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/ConfigWindow.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UOSQQGroup.png
+    localFileId: 2800000
+    rtMem: 2506188
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 914
+    height: 914
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.upr.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/Sync - Relay.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Help.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.cdn.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Link.png
+    localFileId: 2800000
+    rtMem: 1024
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 48
+    height: 48
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UOSLogoDark.png
+    localFileId: 2800000
+    rtMem: 22400
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 205
+    height: 236
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UpgradeDark.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.matchmaking.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UpgradeLight.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.func.stateful.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.passport.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Upload.png
+    localFileId: 2800000
+    rtMem: 576
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 32
+    height: 32
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Arrow_drop_down.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 65
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.device.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UOSWeChat.png
+    localFileId: 2800000
+    rtMem: 452796
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 389
+    height: 388
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.crud.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/ConfigWeb.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/UOSLogoLight.png
+    localFileId: 2800000
+    rtMem: 22400
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 206
+    height: 236
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.cloudsave.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Sample.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Success.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.hello.jpg
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/HomePage.png
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.safe.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.func.stateless.png
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
     onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
     localFileId: 2800000
@@ -86,18 +518,18 @@ AutoStreamingSettings:
   mAnimations: []
   mSharedSceneAssets: []
   mScenes:
-  - onDemandDownload: 1
+  - onDemandDownload: 0
     assetPath: Assets/Arts/Test/Scenes/test01.unity
     localFileId: -1
-    rtMem: 0
+    rtMem: 75194
     warningFlag: 0
     refs: []
   mConfigCCD:
     useCCD: 0
-    uosSecret: 00631ba0a72c4e438129808f8be88ee5
+    uosSecret: acdb57479fc7408dac18cd65b3e768ed
     uosAppid: dbf91e43-b88d-477c-a89e-c7958a3049aa
-    bucketUuid: 2045aad0-b3c4-42ca-b37b-797c5da80481
-    bucketName: misc
-    badgeName: b01
+    bucketUuid: a751ed9d-6897-454e-947e-8049f41c15f2
+    bucketName: test01
+    badgeName: v0_1
     ttAppid: 
     targetPlatfrom: 
