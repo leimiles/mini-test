@@ -20,7 +20,7 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 1024
     height: 1024
-    abSize: 578966
+    abSize: 580729
   - serializedVersion: 2
     onDemandDownload: 1
     assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
@@ -86,7 +86,7 @@ AutoStreamingSettings:
   mAnimations: []
   mSharedSceneAssets: []
   mScenes:
-  - onDemandDownload: 0
+  - onDemandDownload: 1
     assetPath: Assets/Arts/Test/Scenes/test01.unity
     localFileId: -1
     rtMem: 0

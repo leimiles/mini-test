@@ -1,5 +1,5 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: mini-test
-    Appid: wxc3fc029bfde9435b
+    projectName: 
+    Appid: 
     CDN: 
-    assetLoadType: 1
+    assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: /Users/zhulei/Projects/mini-test-build
+    DST: 
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -57,11 +57,13 @@ MonoBehaviour:
     ProfilingMemory: 0
     CleanBuild: 0
     CustomNodePath: 
-    showMonitorSuggestModal: 0
+    autoAdaptScreen: 1
+    showMonitorSuggestModal: 1
     enableProfileStats: 0
     enableRenderAnalysis: 0
     iOSAutoGCInterval: 10000
     enableIOSPerformancePlus: 0
+    brotliMT: 1
   CompressTexture:
     halfSize: 0
     useDXT5: 0
