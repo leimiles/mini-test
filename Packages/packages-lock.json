@@ -21,7 +21,7 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "d1a58c4130e3536bd02480b3bcc63fe3a7f09a73"
+      "hash": "e5c01bfbcd2dbe4e41056a50272e75b690357302"
     },
     "com.qq.weixin.minigame": {
       "version": "https://gitee.com/wechat-minigame/minigame-tuanjie-transform-sdk.git",
@@ -94,6 +94,15 @@
       "dependencies": {},
       "url": "https://packages.tuanjie.cn"
     },
+    "com.unity.inputsystem": {
+      "version": "1.6.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.tuanjie.cn"
+    },
     "com.unity.instantgame": {
       "version": "1.0.10",
       "depth": 0,
@@ -113,7 +122,7 @@
       "url": "https://packages.tuanjie.cn"
     },
     "com.unity.memoryprofiler": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

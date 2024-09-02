@@ -20,7 +20,7 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 1024
     height: 1024
-    abSize: 580729
+    abSize: 578966
   - serializedVersion: 2
     onDemandDownload: 0
     assetPath: Packages/cn.unity.uos.launcher/Resources/Sprites/Services/cn.unity.uos.multiverse.png
@@ -317,7 +317,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -329,7 +329,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 389
     height: 388
     abSize: 0
@@ -341,7 +341,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -353,7 +353,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 64
     height: 64
     abSize: 0
@@ -365,7 +365,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 206
     height: 236
     abSize: 0
@@ -377,7 +377,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -389,7 +389,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 64
     height: 64
     abSize: 0
@@ -401,7 +401,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 64
     height: 64
     abSize: 0
@@ -413,7 +413,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -425,7 +425,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 64
     height: 64
     abSize: 0
@@ -437,7 +437,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -449,7 +449,7 @@ AutoStreamingSettings:
     warningFlag: 0
     refs:
     - res
-    maxPlaceholderSize: 196640
+    maxPlaceholderSize: 0
     width: 128
     height: 128
     abSize: 0
@@ -521,7 +521,7 @@ AutoStreamingSettings:
   - onDemandDownload: 0
     assetPath: Assets/Arts/Test/Scenes/test01.unity
     localFileId: -1
-    rtMem: 75194
+    rtMem: 0
     warningFlag: 0
     refs: []
   mConfigCCD:

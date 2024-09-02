@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: mini-test
-    Appid: dbf91e43-b88d-477c-a89e-c7958a3049aa
+    projectName: 
+    Appid: wxc3fc029bfde9435b
     CDN: https://a.unity.cn/client_api/v1/buckets/a751ed9d-6897-454e-947e-8049f41c15f2/release_by_badge/v0_1/content
     assetLoadType: 0
     compressDataPackage: 1
     VideoUrl: 
-    DST: D:/Projects/mini-test/Build
+    DST: F:/Projects/Unity/mini-test/Build
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;AS;CUS/CustomAB
@@ -29,7 +29,7 @@ MonoBehaviour:
     HideAfterCallMain: 1
     preloadFiles: 
     Orientation: 0
-    bgImageSrc: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background_f.jpg
+    bgImageSrc: Assets/Arts/Test/Textures/background_girl.jpg
     dataFileSubPrefix: CUS
     maxStorage: 200
     defaultReleaseSize: 31457280
@@ -51,7 +51,7 @@ MonoBehaviour:
     ScriptOnly: 0
     Il2CppOptimizeSize: 1
     profilingFuncs: 1
-    Webgl2: 1
+    Webgl2: 0
     fbslim: 0
     DeleteStreamingAssets: 1
     ProfilingMemory: 0

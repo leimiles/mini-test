@@ -1,0 +1,60 @@
+{
+    "name": "MoveToTouch",
+    "maps": [
+        {
+            "name": "Miles",
+            "id": "de880cb9-d58c-4d73-a975-a57c3a05182b",
+            "actions": [
+                {
+                    "name": "MoveTo",
+                    "type": "PassThrough",
+                    "id": "a34818ab-2ba9-43a9-bd9c-bfedc7e541f2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "847b13bb-273d-4d03-a554-7d1f23bb9d1c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9b675530-75a5-4b61-b988-2964d7f8c9ec",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "MoveTo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b59bc5c0-4f25-4cfe-b72f-fded946dc5be",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": []
+        }
+    ]
+}
