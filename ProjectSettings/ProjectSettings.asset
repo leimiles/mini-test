@@ -862,11 +862,11 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    WeixinMiniGame: 1
+    WeixinMiniGame: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration:
     WebGL: 1
-    WeixinMiniGame: 1
+    WeixinMiniGame: 0
   managedStrippingLevel:
     ArmLinux: 1
     EmbeddedLinux: 1
