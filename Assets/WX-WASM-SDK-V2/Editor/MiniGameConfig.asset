@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: 
+    projectName: "\u6731\u9EA6\u7684\u5C0F\u6E38\u620F"
     Appid: wxc3fc029bfde9435b
     CDN: https://a.unity.cn/client_api/v1/buckets/a751ed9d-6897-454e-947e-8049f41c15f2/release_by_badge/v0_2/content
     assetLoadType: 0
