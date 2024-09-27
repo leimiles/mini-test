@@ -124,8 +124,8 @@ AutoStreamingSettings:
     useCCD: 0
     uosSecret: acdb57479fc7408dac18cd65b3e768ed
     uosAppid: dbf91e43-b88d-477c-a89e-c7958a3049aa
-    bucketUuid: a751ed9d-6897-454e-947e-8049f41c15f2
-    bucketName: test01
-    badgeName: v0_2
+    bucketUuid: fc52553b-0913-4c23-b0c4-a7d8a4516cce
+    bucketName: shaderPreview
+    badgeName: latest
     ttAppid: 
     targetPlatfrom: 
