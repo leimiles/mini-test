@@ -857,7 +857,7 @@ PlayerSettings:
     Android: UNITY_UOS_SECURITY
     Standalone: UNITY_UOS_SECURITY
     WebGL: UNITY_UOS_SECURITY
-    WeixinMiniGame: UNITY_UOS_SECURITY
+    WeixinMiniGame: UNITY_UOS_SECURITY;WX_PERFORMANCE_MODE
     iPhone: UNITY_UOS_SECURITY
   additionalCompilerArguments: {}
   platformArchitecture: {}
