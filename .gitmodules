@@ -1,0 +1,6 @@
+[submodule "Packages/com.unity.render-pipelines.core"]
+	path = Packages/com.unity.render-pipelines.core
+	url = git@github.com:leimiles/com.unity.render-pipelines.core.mini.git
+[submodule "Packages/com.unity.render-pipelines.universal"]
+	path = Packages/com.unity.render-pipelines.universal
+	url = git@github.com:leimiles/com.unity.render-pipelines.universal.mini.git
