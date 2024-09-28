@@ -15,7 +15,7 @@ MonoBehaviour:
   ProjectConf:
     projectName: "\u6731\u9EA6\u7684\u5C0F\u6E38\u620F"
     Appid: wxc3fc029bfde9435b
-    CDN: https://a.unity.cn/client_api/v1/buckets/fc52553b-0913-4c23-b0c4-a7d8a4516cce/release_by_badge/release/content
+    CDN: https://a.unity.cn/client_api/v1/buckets/fc52553b-0913-4c23-b0c4-a7d8a4516cce/release_by_badge/releaseV2/content
     assetLoadType: 0
     compressDataPackage: 1
     VideoUrl: 

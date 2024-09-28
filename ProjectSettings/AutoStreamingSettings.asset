@@ -126,6 +126,6 @@ AutoStreamingSettings:
     uosAppid: dbf91e43-b88d-477c-a89e-c7958a3049aa
     bucketUuid: fc52553b-0913-4c23-b0c4-a7d8a4516cce
     bucketName: shaderPreview
-    badgeName: latest
+    badgeName: releaseV2
     ttAppid: 
     targetPlatfrom: 
