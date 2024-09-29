@@ -103,9 +103,12 @@ public class RotateAroundManager : MonoBehaviour
         {
             textMeshProUGUI.text = sphericalCoordinateSystem.EnergyX.ToString();
         }
-        sphericalCoordinateSystem.AutoRotate();
-        SetMainCameraPosition();
-        SetLookAtTargetPosition();
+        if (sphericalCoordinateSystem != null)
+        {
+            sphericalCoordinateSystem.AutoRotate();
+            SetMainCameraPosition();
+            SetLookAtTargetPosition();
+        }
     }
 
     void SetMainCameraPosition()
