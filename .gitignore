@@ -76,3 +76,4 @@ CustomCloudAssets
 Packages/packages-lock.json
 Assets/CustomSearch.txt
 Assets/CustomSearch.txt.meta
+ProjectSettings/AutoStreamingSettings.asset
