@@ -4,6 +4,7 @@
     "cn.unity.uos.cdn": "https://e.coding.net/unitychina/uos/UosCdnSDK.git",
     "cn.unity.uos.launcher": "https://e.coding.net/unitychina/uos/UOSLauncher.git",
     "com.qq.weixin.minigame": "https://gitee.com/wechat-minigame/minigame-tuanjie-transform-sdk.git",
+    "com.unity.addressables": "1.21.21",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.0.7",
     "com.unity.ide.rider": "3.0.21",
