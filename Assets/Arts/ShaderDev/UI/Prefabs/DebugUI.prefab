@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2179240990935260779}
   - component: {fileID: 3694342301926633598}
   - component: {fileID: 8060644507954676278}
-  m_Layer: 0
+  m_Layer: 5
   m_HasEditorInfo: 1
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 1802708223189613387}
   - component: {fileID: 7952307293468792864}
   - component: {fileID: 7888445172905465135}
-  m_Layer: 0
+  m_Layer: 5
   m_HasEditorInfo: 1
   m_Name: DebugUI
   m_TagString: Untagged
