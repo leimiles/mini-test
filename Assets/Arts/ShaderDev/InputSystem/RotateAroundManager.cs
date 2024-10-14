@@ -9,9 +9,15 @@ public class RotateAroundManager : MonoBehaviour
     [SerializeField] Transform lookAtTarget;
     [SerializeField] float lookAtTargetMoveSpeed = 10.0f;
     RotateAround ia_RotateAround;
-    Camera mainCamera;
-    static Vector3 hitPosition = Vector3.zero;
-    static SphericalCoordinateSystem sphericalCoordinateSystem;
+    Camera m_MainCamera;
+    static Vector3 m_HitPosition = Vector3.zero;
+    static SphericalCoordinateSystem m_SphericalCoordinateSystem;
+    static Vector2 m_1stFingerStartPosition = Vector2.zero;
+    static Vector2 m_1stFingerPosition = Vector2.zero;
+    static Vector2 m_1stFingerOffset = Vector2.zero;
+    static Vector2 m_2ndFingerStartPosition = Vector2.zero;
+    static Vector2 m_2ndFingerPosition = Vector2.zero;
+    static float m_DistanceBetween2Fingers = 0.0f;
 
     void Awake()
     {
@@ -21,12 +27,14 @@ public class RotateAroundManager : MonoBehaviour
         }
         else
         {
-            mainCamera = Camera.main;
+            m_MainCamera = Camera.main;
         }
         ia_RotateAround = new RotateAround();
-        ia_RotateAround.Rotate.ClickOnTarget.started += SetEyesOnTargetPosition;
-        ia_RotateAround.Rotate.ClickOnTarget.canceled += SlideEnd;
-        ia_RotateAround.Rotate.CameraRotateAround.performed += SlidingOnScreen;
+        ia_RotateAround.Rotate.Finger0.started += SlideStart;
+        ia_RotateAround.Rotate.Finger0.performed += Sliding;
+        ia_RotateAround.Rotate.Finger0.canceled += SlideEnd;
+        ia_RotateAround.Rotate.Finger1.started += ZoomStart;
+        ia_RotateAround.Rotate.Finger1.performed += Zooming;
     }
 
     void OnEnable()
@@ -42,40 +50,67 @@ public class RotateAroundManager : MonoBehaviour
     void SlideEnd(InputAction.CallbackContext context)
     {
         CountSystem.Active = false;
-        Vector2 energy2D = slideOffset / CountSystem.GetTimePassed();
-        sphericalCoordinateSystem.SetEnergyX(energy2D.x, true);
+        Vector2 energy2D = m_1stFingerOffset / CountSystem.GetTimePassed();
+        m_SphericalCoordinateSystem.SetEnergyX(energy2D.x, true);
         CountSystem.Reset();
     }
 
     void SetLookAtTargetPosition()
     {
-        lookAtTarget.position = Vector3.MoveTowards(lookAtTarget.position, hitPosition, Time.deltaTime * lookAtTargetMoveSpeed);
+        lookAtTarget.position = Vector3.MoveTowards(lookAtTarget.position, m_HitPosition, Time.deltaTime * lookAtTargetMoveSpeed);
     }
 
+    void ZoomStart(InputAction.CallbackContext context)
+    {
+        m_2ndFingerStartPosition = context.action.ReadValue<Vector2>();
+        m_DistanceBetween2Fingers = Vector2.Distance(m_1stFingerStartPosition, m_2ndFingerStartPosition);
+    }
 
+    void Zooming(InputAction.CallbackContext context)
+    {
+        m_2ndFingerPosition = context.action.ReadValue<Vector2>();
 
-    Vector2 firstTouchPositionOnScreen = Vector2.zero;
-    Vector2 slideOffset = Vector2.zero;
-    void SlidingOnScreen(InputAction.CallbackContext context)
+        float distanceOffset = Vector2.Distance(m_1stFingerPosition, m_2ndFingerPosition) - m_DistanceBetween2Fingers;
+
+        if (distanceOffset > 0)
+        {
+            m_SphericalCoordinateSystem.Radius -= 5.0f * Time.deltaTime;
+        }
+        else
+        {
+            m_SphericalCoordinateSystem.Radius += 5.0f * Time.deltaTime;
+        }
+        //float distanceBetweenFingers = Vector2.Distance(firstTouchPositionOnScreenSliding, context.action.ReadValue<Vector2>());
+        //sphericalCoordinateSystem.Radius += 1.0f * Time.deltaTime;
+    }
+
+    void Sliding(InputAction.CallbackContext context)
     {
         Vector2 slidingPosition = context.action.ReadValue<Vector2>();
-        slideOffset.x = (slidingPosition.x - firstTouchPositionOnScreen.x) / Screen.width;
-        slideOffset.y = (slidingPosition.y - firstTouchPositionOnScreen.y) / Screen.height;
+        m_1stFingerPosition = slidingPosition;
+
+        if (ia_RotateAround.Rotate.Finger1.phase == InputActionPhase.Started)
+        {
+            return;
+        }
+
+        m_1stFingerOffset.x = (slidingPosition.x - m_1stFingerStartPosition.x) / Screen.width;
+        m_1stFingerOffset.y = (slidingPosition.y - m_1stFingerStartPosition.y) / Screen.height;
         //sphericalCoordinateSystem.AzimuthalAngle -= slideOffset.x * Time.deltaTime * 20.0f;
-        sphericalCoordinateSystem.PolarAngle += slideOffset.y * Time.deltaTime * 20.0f;
+        m_SphericalCoordinateSystem.PolarAngle += m_1stFingerOffset.y * Time.deltaTime * 20.0f;
     }
 
-    private void SetEyesOnTargetPosition(InputAction.CallbackContext context)
+    private void SlideStart(InputAction.CallbackContext context)
     {
         CountSystem.Active = true;
         Vector2 touchPositionOnScreen = context.action.ReadValue<Vector2>();
-        firstTouchPositionOnScreen = touchPositionOnScreen;
-        Ray ray = mainCamera.ScreenPointToRay(touchPositionOnScreen);
+        m_1stFingerStartPosition = touchPositionOnScreen;
+        Ray ray = m_MainCamera.ScreenPointToRay(touchPositionOnScreen);
         RaycastHit raycastHit;
         if (Physics.Raycast(ray, out raycastHit))
         {
-            sphericalCoordinateSystem.SetEnergyX(0.0f);
-            hitPosition = raycastHit.point;
+            m_SphericalCoordinateSystem.SetEnergyX(0.0f);
+            m_HitPosition = raycastHit.point;
         }
 
     }
@@ -84,49 +119,49 @@ public class RotateAroundManager : MonoBehaviour
 
     void Start()
     {
-        if (mainCamera == null)
+        if (m_MainCamera == null)
         {
             return;
         }
-        sphericalCoordinateSystem = new SphericalCoordinateSystem(mainCamera.transform.position);
+        m_SphericalCoordinateSystem = new SphericalCoordinateSystem(m_MainCamera.transform.position);
     }
 
 
     void Update()
     {
-        if (mainCamera == null || lookAtTarget == null)
+        if (m_MainCamera == null || lookAtTarget == null || m_SphericalCoordinateSystem == null)
         {
             return;
         }
         CountSystem.Count();
         if (textMeshProUGUI != null)
         {
-            textMeshProUGUI.text = sphericalCoordinateSystem.EnergyX.ToString();
+            textMeshProUGUI.text = m_SphericalCoordinateSystem.EnergyX.ToString();
         }
-        if (sphericalCoordinateSystem != null)
-        {
-            sphericalCoordinateSystem.AutoRotate();
-            SetMainCameraPosition();
-            SetLookAtTargetPosition();
-        }
+        m_SphericalCoordinateSystem.AutoRotate();
+        SetMainCameraPosition();
+        SetLookAtTargetPosition();
+
+        //Debug.Log("CameraRotateAround: " + ia_RotateAround.Rotate.ClickOnTarget.phase);
+        //Debug.Log("CameraZoom: " + ia_RotateAround.Rotate.CameraZoom.phase);
     }
 
     void SetMainCameraPosition()
     {
-        mainCamera.transform.position = sphericalCoordinateSystem.GetCartesianPosition();
+        m_MainCamera.transform.position = m_SphericalCoordinateSystem.GetCartesianPosition();
     }
 
 
     class CountSystem
     {
-        static float timePassedInSeconds = 0.0f;
+        static float timePassedInSeconds = 0.00000001f;     // avoid /0
         private static bool active = false;
 
         public static bool Active { get => active; set => active = value; }
 
         public static void Reset()
         {
-            timePassedInSeconds = 0.0f;
+            timePassedInSeconds = 0.00000001f;
         }
 
         public static void Count()
