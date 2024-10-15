@@ -31,9 +31,8 @@ MonoBehaviour:
   m_Name: URP-Mini-Renderer
   m_EditorClassIdentifier: 
   debugShaders:
-    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
-      type: 3}
-    hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
+    debugReplacementPS: {fileID: 0}
+    hdrDebugViewPS: {fileID: 0}
   m_RendererFeatures:
   - {fileID: -6898815237641528085}
   m_RendererFeatureMap: eb1c53c5177c42a0
