@@ -77,3 +77,4 @@ Packages/packages-lock.json
 Assets/CustomSearch.txt
 Assets/CustomSearch.txt.meta
 ProjectSettings/AutoStreamingSettings.asset
+Assets/WX-WASM-SDK-V2/Editor/MiniGameConfig.asset
