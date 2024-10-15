@@ -29,7 +29,7 @@ MonoBehaviour:
     HideAfterCallMain: 1
     preloadFiles: 
     Orientation: 0
-    bgImageSrc: Assets/Arts/Test/Textures/background_girl.jpg
+    bgImageSrc: Assets/Arts/MoveToTouch/Textures/img_background_gril.jpg
     dataFileSubPrefix: CUS
     maxStorage: 200
     defaultReleaseSize: 31457280
