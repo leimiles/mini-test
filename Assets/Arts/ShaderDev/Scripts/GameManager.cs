@@ -6,9 +6,11 @@ using WeChatWASM;
 [DisallowMultipleComponent]
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]
+    GameObject LoginUI;
     void Start()
     {
+        Instantiate(LoginUI);
         WX.ReportGameStart();
     }
 
