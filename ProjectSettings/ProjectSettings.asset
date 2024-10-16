@@ -96,7 +96,7 @@ PlayerSettings:
   cacheASTextureAB: 0
   maxCacheSize: 0
   maxConcurrentLoad: 0
-  autoStreamingId: /v1/buckets/fc52553b-0913-4c23-b0c4-a7d8a4516cce/release_by_badge/zlh/content
+  autoStreamingId: /v1/buckets/be845f55-2cfe-4e08-87e9-1b8162181a67/release_by_badge/dev_01/content
   instantGameAppId: dbf91e43-b88d-477c-a89e-c7958a3049aa
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
@@ -997,7 +997,7 @@ PlayerSettings:
   weixinMiniGameEmscriptenArgs: ' -s EXPORTED_FUNCTIONS=_sbrk,_emscripten_stack_get_base,_emscripten_stack_get_end
     -s ERROR_ON_UNDEFINED_SYMBOLS=0 -s TOTAL_MEMORY=256MB -s EXPORTED_RUNTIME_METHODS=''["ccall","cwrap","stackTrace","addRunDependency","removeRunDependency","FS_createPath","FS_createDataFile","stackTrace","writeStackCookie","checkStackCookie","lengthBytesUTF8","stringToUTF8"]'''
   weixinMiniGameModulesDirectory: 
-  weixinMiniGameTemplate: PATH:D:\Projects\mini-test\Library\PackageCache\com.qq.weixin.minigame@a35ef24071\WebGLTemplates\WXTemplate2022TJ
+  weixinMiniGameTemplate: PATH:F:\Projects\Unity\mini-test\Library\PackageCache\com.qq.weixin.minigame@a35ef24071\WebGLTemplates\WXTemplate2022TJ
   weixinMiniGameAnalyzeBuildSize: 0
   weixinMiniGameUseEmbeddedResources: 0
   weixinMiniGameCompressionFormat: 2
