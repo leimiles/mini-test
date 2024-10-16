@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!1200 &1
+AutoStreamingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  mSearchMode: 15
+  mCustomSearchFile: 
+  mTextureSearchString: 
+  mMeshSearchString: 
+  mTextures:
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    localFileId: 28684132378477856
+    rtMem: 1048576
+    warningFlag: 0
+    refs:
+    - 0
+    - res
+    maxPlaceholderSize: 589856
+    width: 1024
+    height: 1024
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.png
+    localFileId: 2800000
+    rtMem: 118336
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 512
+    height: 512
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Arts/MoveToTouch/Textures/img_background.png
+    localFileId: 2800000
+    rtMem: 235296
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 512
+    height: 1024
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+    localFileId: 2800000
+    rtMem: 3
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 1
+    height: 1
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
+    localFileId: 2800000
+    rtMem: 256
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 8
+    height: 8
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  mAudios: []
+  mMeshes: []
+  mAnimations: []
+  mSharedSceneAssets: []
+  mScenes:
+  - onDemandDownload: 0
+    assetPath: Assets/Init.scene
+    localFileId: -1
+    rtMem: 0
+    warningFlag: 0
+    refs: []
+  mConfigCCD:
+    useCCD: 0
+    uosSecret: acdb57479fc7408dac18cd65b3e768ed
+    uosAppid: dbf91e43-b88d-477c-a89e-c7958a3049aa
+    bucketUuid: be845f55-2cfe-4e08-87e9-1b8162181a67
+    bucketName: Miles's Journey
+    badgeName: dev_01
+    ttAppid: 
+    targetPlatfrom: 
