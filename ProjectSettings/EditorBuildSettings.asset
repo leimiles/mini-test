@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/Animation Rigging/1.2.0/Animation Rigging Constraint Samples/Scenes/2BoneIK.unity
-    guid: 3386751cfe75d49a09170550b86eb26c
+    path: Assets/Init.scene
+    guid: c9313b40d775dd543b94584766dca575
   m_configObjects: {}
   m_SlimFeaturesWeixinMiniGame:
     AllocateOverhead: 1
