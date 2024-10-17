@@ -5,9 +5,9 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class GameInputManager : MonoBehaviour
 {
-    public void GameStart()
+    static UIData currentUIData;
+    public void SetUIData(UIData uIData)
     {
-        Debug.Log("game start");
+        currentUIData = uIData;
     }
-
 }

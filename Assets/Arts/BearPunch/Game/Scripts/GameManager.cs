@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using WeChatWASM;
 
@@ -5,7 +6,8 @@ using WeChatWASM;
 [RequireComponent(typeof(GameInputManager))]
 public class GameManager : MonoBehaviour
 {
-    public GameStage gameStage = GameStage.login;
+    [SerializeField]
+    public GameStatus gameStatus;
     bool IsGameValidated = false;
     void Start()
     {
@@ -35,6 +37,13 @@ public class GameManager : MonoBehaviour
         IsGameValidated = true;
     }
 
+}
+
+[Serializable]
+public class GameStatus
+{
+    [SerializeField]
+    public GameStage gameStage = GameStage.login;
 }
 
 public enum GameStage

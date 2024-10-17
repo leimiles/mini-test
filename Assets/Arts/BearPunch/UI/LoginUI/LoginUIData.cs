@@ -68,14 +68,13 @@ public class LoginUIData : UIData, ISerializationCallbackReceiver
             spawnedUIs.Add(Instantiate(backgroundImage_Pannel, canvas.transform));
             spawnedUIs.Add(Instantiate(playerName_InputField, canvas.transform));
             GameObject btn1 = Instantiate(start_Button, canvas.transform);
-            AddButtonFunction(btn1.GetComponent<Button>(), Temp);
+            AddButtonFunction(btn1.GetComponent<Button>(), StartGame);
             spawnedUIs.Add(btn1);
             spawnedUIs.Add(Instantiate(option_Button, canvas.transform));
         }
     }
-
-    void Temp()
+    void StartGame()
     {
-        Debug.Log("wawa");
+        //Debug.Log("start game");
     }
 }
