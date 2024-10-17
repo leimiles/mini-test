@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61ad872fe0bfb741a1c93c9ac24da8a, type: 3}
+  m_Name: LoginUIData
+  m_EditorClassIdentifier: 
+  backgroundImage_Pannel: {fileID: 3091467997631048281, guid: d99ce2eed07751f469dc45d577b90e3a,
+    type: 3}
+  playerName_InputField: {fileID: 1542523612054893403, guid: eed3b6df28097c340af9daa2b25059c7,
+    type: 3}
+  start_Button: {fileID: 5780321799446485674, guid: 35def3e9a776d64448cc6f31fd71d869,
+    type: 3}
+  option_Button: {fileID: 9009961306741437859, guid: 03359cf07bb4b5b4eaf6c462f2e6deae,
+    type: 3}
