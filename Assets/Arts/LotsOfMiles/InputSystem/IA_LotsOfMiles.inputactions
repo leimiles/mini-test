@@ -1,0 +1,34 @@
+{
+    "name": "IA_LotsOfMiles",
+    "maps": [
+        {
+            "name": "LotsOfMiles",
+            "id": "c195b271-ec12-4915-900d-0cd32d476fb7",
+            "actions": [
+                {
+                    "name": "SingleTouch",
+                    "type": "Button",
+                    "id": "880544c7-f7d8-4654-94b8-89568f7bbc42",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9a086a1f-2ca6-4b0a-b4c2-6074a40183ce",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SingleTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
