@@ -3,7 +3,7 @@
     "cn.tuanjie.minigame.host": "1.0.4",
     "cn.unity.uos.cdn": "https://e.coding.net/unitychina/uos/UosCdnSDK.git",
     "cn.unity.uos.launcher": "https://e.coding.net/unitychina/uos/UOSLauncher.git",
-    "com.qq.weixin.minigame": "https://gitee.com/wechat-minigame/minigame-tuanjie-transform-sdk.git",
+    "com.qq.weixin.minigame": "https://github.com/wechat-miniprogram/minigame-tuanjie-transform-sdk.git",
     "com.unity.addressables": "1.21.21",
     "com.unity.animation.rigging": "1.2.1",
     "com.unity.cinemachine": "2.9.7",
