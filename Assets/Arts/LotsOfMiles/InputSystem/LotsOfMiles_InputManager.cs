@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [DisallowMultipleComponent]
-public class Input_LotsOfMiles : MonoBehaviour
+public class LotsOfMiles_InputManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI textMeshProUGUI;
     IA_LotsOfMiles inputActions;
