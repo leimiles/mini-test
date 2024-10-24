@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GPUSKinning_Material_MannequinAnim
-  m_Shader: {fileID: 4800000, guid: 3a392ad4a7db84a408b6236365f93c58, type: 3}
+  m_Shader: {fileID: 4800000, guid: ff7afcef51384f84ba074c1de04dd05d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
