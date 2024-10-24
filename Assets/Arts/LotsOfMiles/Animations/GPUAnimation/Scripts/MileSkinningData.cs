@@ -5,14 +5,26 @@ using UnityEngine;
 public class MileSkinningData
 {
 
-    //public MileSkinningAnimationSO animationSO;
-    public GPUSkinningAnimation animationSO;
+    public MileSkinningAnimationSO animationSO;
+    //public GPUSkinningAnimation animationSO;
     public Mesh mesh;
     public Texture2D texture2D;
     public List<MileSkinning> mileSkinnings = new List<MileSkinning>();
     CullingGroup cullingGroup = null;
     MileSkinningList<BoundingSphere> cullingBounds = new MileSkinningList<BoundingSphere>(100);
     MileSkinningMaterial[] mileSkinningMaterials;
+    private float time = 0;
+    public float Time
+    {
+        get
+        {
+            return time;
+        }
+        set
+        {
+            time = value;
+        }
+    }
     static int shaderPropID_GPUSkinning_TextureMatrix = -1;
     static int shaderPropID_GPUSkinning_TextureSize_NumPixelsPerFrame = 0;
     public MileSkinningData()

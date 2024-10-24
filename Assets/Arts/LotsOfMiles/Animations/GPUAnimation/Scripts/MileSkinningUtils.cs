@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MileSkinningUtils
 {
-    public static Texture2D CreateTexture2D(TextAsset textAsset, GPUSkinningAnimation animationSO)
+    public static Texture2D CreateTexture2D(TextAsset textAsset, MileSkinningAnimationSO animationSO)
     {
         if (textAsset == null || animationSO == null)
         {

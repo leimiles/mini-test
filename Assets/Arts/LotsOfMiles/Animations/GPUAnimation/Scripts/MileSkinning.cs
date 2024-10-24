@@ -8,8 +8,8 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class MileSkinning : MonoBehaviour
 {
-    //[HideInInspector][SerializeField] MileSkinningAnimationSO mileSkinningAnimationSO;
-    [SerializeField] GPUSkinningAnimation gpuSkinningAnimationSO;
+    [HideInInspector][SerializeField] MileSkinningAnimationSO mileSkinningAnimationSO;
+    //[SerializeField] GPUSkinningAnimation gpuSkinningAnimationSO;
     [SerializeField] Material material;
     [SerializeField] Mesh mesh;
     [SerializeField] TextAsset textAsset;
@@ -38,12 +38,12 @@ public class MileSkinning : MonoBehaviour
         {
             return;
         }
-        if (gpuSkinningAnimationSO != null && material != null && mesh != null && textAsset != null)
+        if (mileSkinningAnimationSO != null && material != null && mesh != null && textAsset != null)
         {
             MileSkinningData mileSkinningData = null;
             if (Application.isPlaying)
             {
-                mileSkinningManager.Register(gpuSkinningAnimationSO, mesh, material, textAsset, this, out mileSkinningData);
+                mileSkinningManager.Register(mileSkinningAnimationSO, mesh, material, textAsset, this, out mileSkinningData);
             }
             else
             {
@@ -59,9 +59,8 @@ public class MileSkinning : MonoBehaviour
 public class MileSkinningManager
 {
     private List<MileSkinningData> items = new List<MileSkinningData>();
-    public void Register(GPUSkinningAnimation animationSO, Mesh mesh, Material material, TextAsset textAsset, MileSkinning mileSkinning, out MileSkinningData mileSkinningData)
+    public void Register(MileSkinningAnimationSO animationSO, Mesh mesh, Material material, TextAsset textAsset, MileSkinning mileSkinning, out MileSkinningData mileSkinningData)
     {
-        Debug.Log("se le");
         mileSkinningData = null;
         if (animationSO == null || mesh == null || material == null || textAsset == null)
         {
@@ -106,8 +105,6 @@ public class MileSkinningManager
             data.mileSkinnings.Add(mileSkinning);
             data.AddCullingBounds();
         }
-
-        Debug.Log("se le");
 
         mileSkinningData = data;
 

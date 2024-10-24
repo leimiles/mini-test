@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "MileSkinningAnimation", menuName = "Mini/Animation/SkinningAnimation", order = 1)]
 public class MileSkinningAnimationSO : ScriptableObject
 {
     public string guid = null;
@@ -21,4 +22,7 @@ public class MileSkinningAnimationSO : ScriptableObject
     public int textureHeight = 0;
 
     public float sphereRadius = 1.0f;
+
+    public GPUSkinningAnimation gpuSkinningAnimation;
+
 }
